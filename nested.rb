@@ -37,7 +37,8 @@ def alan_kay_is_known_for
           :languages => ["C"]
         }
      }
-	:alan_kay[:known_for]
+programmer_hash.each do |key, value|
+     puts "#{attribute}: #{value}"
 end
 
 def dennis_ritchies_language
