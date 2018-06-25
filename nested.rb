@@ -38,7 +38,7 @@ def alan_kay_is_known_for
         }
      }
 programmer_hash.each do |key, value|
-     puts :alan_kay ,:known_for
+     puts "#{:alan_kay} ,#{:known_for}"
 	 end
 end
 
